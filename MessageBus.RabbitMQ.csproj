@@ -26,15 +26,30 @@ Prerequisites:
 
 RabbitMQ server running and accessible from your application.</Description>
     <Copyright>Shaka Mirtskhulava 2025, All rights reserved. Unauthorized use, duplication, or distribution of this package without permission is prohibited.</Copyright>
-    <PackageIcon>MessageBusRabbitMQIcon.png</PackageIcon>
-    <PackageReadmeFile>MessageBus.RabbitMQ.Readme.md</PackageReadmeFile>
+    <PackageIcon>MessageBusIcon.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/ShakaMirtskhulava/SHAKA.MessageBus.RabbitMQ</RepositoryUrl>
     <PackageTags>MessageBus, RabbitMq, Queue, MessageQueue</PackageTags>
-    <PackageLicenseFile>MessageBusRabbitMQLicence.md</PackageLicenseFile>
+    <PackageLicenseFile>MessageBusLicence.md</PackageLicenseFile>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\MessageBus\MessageBusIcon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\MessageBus\MessageBusLicence.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\MessageBus\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
