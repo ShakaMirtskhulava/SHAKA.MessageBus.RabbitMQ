@@ -30,12 +30,12 @@ RabbitMQ server running and accessible from your application.</Description>
     <PackageReadmeFile>MessageBus.RabbitMQ.Readme.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/ShakaMirtskhulava/SHAKA.MessageBus.RabbitMQ</RepositoryUrl>
     <PackageTags>MessageBus, RabbitMq, Queue, MessageQueue</PackageTags>
-    <AssemblyVersion>1.1.1.1</AssemblyVersion>
-    <FileVersion>1.1.1.1</FileVersion>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <FileVersion>1.0.1.0</FileVersion>
     <PackageLicenseFile>MessageBusRabbitMQLicence.md</PackageLicenseFile>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>1.1.1</Version>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
