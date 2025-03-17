@@ -43,7 +43,7 @@ RabbitMQ server running and accessible from your application.</Description>
     <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="8.0.0" />
     <PackageReference Include="Polly.Core" Version="8.5.2" />
     <PackageReference Include="RabbitMQ.Client" Version="7.1.1" />
-    <PackageReference Include="SHAKA.MessageBus" Version="1.0.0" />
+    <PackageReference Include="SHAKA.MessageBus" Version="1.0.5" />
   </ItemGroup>
 
   <ItemGroup>
@@ -56,6 +56,18 @@ RabbitMQ server running and accessible from your application.</Description>
       <PackagePath>\</PackagePath>
     </None>
     <None Update="MessageBusRabbitMQLicence.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="Metadata Files\MessageBus.RabbitMQ.Readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="Metadata Files\MessageBusRabbitMQIcon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="Metadata Files\MessageBusRabbitMQLicence.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
