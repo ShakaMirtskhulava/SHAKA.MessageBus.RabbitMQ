@@ -30,8 +30,6 @@ RabbitMQ server running and accessible from your application.</Description>
     <PackageReadmeFile>MessageBus.RabbitMQ.Readme.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/ShakaMirtskhulava/SHAKA.MessageBus.RabbitMQ</RepositoryUrl>
     <PackageTags>MessageBus, RabbitMq, Queue, MessageQueue</PackageTags>
-    <AssemblyVersion>1.0.1.0</AssemblyVersion>
-    <FileVersion>1.0.1.0</FileVersion>
     <PackageLicenseFile>MessageBusRabbitMQLicence.md</PackageLicenseFile>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
@@ -43,7 +41,7 @@ RabbitMQ server running and accessible from your application.</Description>
     <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="8.0.0" />
     <PackageReference Include="Polly.Core" Version="8.5.2" />
     <PackageReference Include="RabbitMQ.Client" Version="7.1.1" />
-    <PackageReference Include="SHAKA.MessageBus" Version="1.0.5" />
+    <PackageReference Include="SHAKA.MessageBus" Version="1.0.6" />
   </ItemGroup>
 
   <ItemGroup>
