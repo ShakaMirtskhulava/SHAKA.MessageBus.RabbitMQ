@@ -27,13 +27,13 @@ Prerequisites:
 RabbitMQ server running and accessible from your application.</Description>
     <Copyright>Shaka Mirtskhulava 2025, All rights reserved. Unauthorized use, duplication, or distribution of this package without permission is prohibited.</Copyright>
     <PackageIcon>MessageBusRabbitMQIcon.png</PackageIcon>
-    <PackageReadmeFile>MessageBus.RabbitMQ.Readme.md</PackageReadmeFile>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/ShakaMirtskhulava/SHAKA.MessageBus.RabbitMQ</RepositoryUrl>
     <PackageTags>MessageBus, RabbitMq, Queue, MessageQueue</PackageTags>
     <PackageLicenseFile>MessageBusRabbitMQLicence.md</PackageLicenseFile>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>1.0.5</Version>
+    <Version>1.0.6</Version>
     <UserSecretsId>f6b56843-f009-4769-848c-417d1bbe1b8d</UserSecretsId>
   </PropertyGroup>
 
@@ -67,6 +67,10 @@ RabbitMQ server running and accessible from your application.</Description>
       <PackagePath>\</PackagePath>
     </None>
     <None Update="Metadata Files\MessageBusRabbitMQLicence.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
