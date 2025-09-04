@@ -1,8 +1,8 @@
 ﻿using MessageBus.Abstractions;
-using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.DependencyInjection;
-using RabbitMQ.Client;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using RabbitMQ.Client;
 
 namespace MessageBus.RabbitMQ;
 
@@ -53,8 +53,4 @@ public static class RabbitMqDependencyInjectionExtensions
     }
 
 
-    private class EventBusBuilder(IServiceCollection services) : IEventBusBuilder
-    {
-        public IServiceCollection Services => services;
-    }
 }
