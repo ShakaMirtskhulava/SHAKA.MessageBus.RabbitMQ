@@ -33,7 +33,7 @@ RabbitMQ server running and accessible from your application.</Description>
     <PackageLicenseFile>MessageBusRabbitMQLicence.md</PackageLicenseFile>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>1.0.7</Version>
+    <Version>1.0.8</Version>
     <UserSecretsId>f6b56843-f009-4769-848c-417d1bbe1b8d</UserSecretsId>
   </PropertyGroup>
 
